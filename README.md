@@ -1,32 +1,49 @@
-<h1 align="center">
- 💻Discord Lgd-Captcha Bot
-</h1>
+# Ldg-captcha
 
-Ce bot Discord permet de sécuriser votre serveur en obligeant les nouveaux membres à passer un test CAPTCHA avant de rejoindre votre communauté.
+Ldg-captcha est un bot Discord qui permet d'ajouter une vérification de captcha à votre serveur pour prévenir les bots et les utilisateurs malveillants.
 
-## Installation
+## Table des matières
 
-1. Clonez ce dépôt sur votre machine ou serveur.
-2. Exécutez `npm install` pour installer les dépendances.
-3. modifier le fichier config.example.json.json en `config.json` et remplissez le correctement.
-4. Exécutez le bot en lançant la commande `node index.js` ou en utilisant une méthode de déploiement de votre choix.
+- [Caractéristiques](#caractéristiques)
+- [Configuration](#configuration)
+- [Utilisation](#utilisation)
+- [Contributions](#contributions)
+- [License](#license)
 
-## Utilisation
+## Caractéristiques
 
-Lorsqu'un nouveau membre rejoint votre serveur, le bot va envoyer un message contenant une image CAPTCHA et un bouton "Répondre". Le membre devra répondre au test CAPTCHA en entrant le code affiché dans l'image dans une fenêtre modale, accessible en cliquant sur le bouton "Répondre". Si le membre répond correctement au test, le bot lui attribuera le ou les rôles spécifiés dans `config.json`. Si le membre répond incorrectement ou ne répond pas dans le temps imparti, il sera automatiquement expulsé du serveur.
+- Système de captcha personnalisable
+- Protection contre les attaques de spam et de bot
+- Ajout facile à votre serveur Discord
+- Entièrement open-source et personnalisable
 
 ## Configuration
 
-La configuration du bot se fait via le fichier `config.json`. Vous pouvez y spécifier le canal où le test CAPTCHA sera envoyé, le temps imparti pour répondre au test, les rôles à attribuer aux membres qui passent le test, et plus encore.
+1. Clonez le dépôt Github sur votre machine locale.
+2. Installez les dépendances en exécutant la commande npm install.
+3. Créez un fichier .env et ajoutez les informations suivantes :
 
-## Contribuer
+TOKEN=<votre token de bot Discord>
+PREFIX=<préfixe de commande de votre choix>
 
-Les contributions sont les bienvenues ! Si vous souhaitez soumettre une correction de bogue, une amélioration ou une nouvelle fonctionnalité, veuillez créer une "pull request" depuis une branche séparée.
 
-## Licence
+4. Lancez le bot en utilisant npm start.
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus d'informations.
+## Utilisation
 
-## Credit/Lien
-- ['Hawk#4890'](https://github.com/HawkButGithub/Captcha-Bot)
-- [🌌・Discord](https://discord.gg/K5pxTKXCmC)
+- Pour ajouter le bot à votre serveur Discrod, utilisez le lien d'invitation suivant : https://discord.com/oauth2/authorize?client_id=<client ID de votre bot>&permissions=268954688&scope=bot
+
+- Utilisez la commande <PREFIX>captcha pour activer le système de captcha sur votre serveur.
+
+- Pour personnaliser votre captcha, utilisez la commande <PREFIX>captcha settings.
+
+- Pour exécuter une commande de manière aléatoire, utilisez la commande <PREFIX>random.
+
+## Contributions
+
+Les contributions sont les bienvenues! N'hésitez pas à signaler tout bogue ou à soumettre une demande de fonctionnalité. Le développement de Ldg-captcha continue grâce à la communauté.
+
+## License
+
+Ldg-captcha est sous licence [MIT](https://choosealicense.com/licenses/mit/).
+```
