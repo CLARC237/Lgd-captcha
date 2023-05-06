@@ -1,3 +1,6 @@
+<h1 align="center">
+ 🚩Suggest Bot⚙
+</h1>
 # Discord Lgd-Captcha Bot
 
 Ce bot Discord permet de sécuriser votre serveur en obligeant les nouveaux membres à passer un test CAPTCHA avant de rejoindre votre communauté.
@@ -26,4 +29,4 @@ Les contributions sont les bienvenues ! Si vous souhaitez soumettre une correcti
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus d'informations.
 
 ## Credit
-'Hawk#4890
+- ['Hawk#4890'](https://github.com/HawkButGithub/Captcha-Bot)
