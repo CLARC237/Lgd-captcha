@@ -1,4 +1,4 @@
-# Discord Captcha Bot
+# Discord Lgd-Captcha Bot
 
 Ce bot Discord permet de sécuriser votre serveur en obligeant les nouveaux membres à passer un test CAPTCHA avant de rejoindre votre communauté.
 
@@ -6,7 +6,7 @@ Ce bot Discord permet de sécuriser votre serveur en obligeant les nouveaux memb
 
 1. Clonez ce dépôt sur votre machine ou serveur.
 2. Exécutez `npm install` pour installer les dépendances.
-3. Créez un fichier `config.json` en suivant le format fourni dans `config.example.json`.
+3. modifier le fichier config.example.json.json en `config.json` et remplissez le correctement.
 4. Exécutez le bot en lançant la commande `node index.js` ou en utilisant une méthode de déploiement de votre choix.
 
 ## Utilisation
@@ -24,3 +24,6 @@ Les contributions sont les bienvenues ! Si vous souhaitez soumettre une correcti
 ## Licence
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus d'informations.
+
+## Credit
+'Hawk#4890
