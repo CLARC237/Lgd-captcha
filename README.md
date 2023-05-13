@@ -24,7 +24,3 @@ Les contributions sont les bienvenues! N'hésitez pas à signaler tout bogue ou 
 ## ❤ Credits/Liens
 - [Discord](https://discord.gg/K5pxTKXCmCs)
 - ['Hawk#4890](https://github.com/HawkButGithub/Captcha-Bot)
-
-## 📝 Licence
-
-Ldg-captcha est sous licence [MIT](https://github.com/CLARC237/Lgd-captcha/blob/main/LICENSE).
